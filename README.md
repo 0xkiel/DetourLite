@@ -7,7 +7,7 @@ just another garbage simple detour wrapper for c++ for simplicity
 
 * Windows 10 || Windows 11 sdk 
 * installed detour via vcpkg or change the header to manual include detour
-
+* just paste the .h file into your project and include it via #include
 ### Example using the wrapper
 ```C++
 
