@@ -47,7 +47,7 @@ DetourThis(orig_VeryRealMoneyFunction, h_VeryRealMoneyFunction);
 
 DetourClean(orig_VeryRealMoneyFunction, h_VeryRealMoneyFunction);
 // now we will use this function to clean up the hooks and removes the hooks
-// DetourCLean is optional tho is subjective i personally dont use it however the function is there for those who need it
+// DetourClean is optional tho is subjective i personally dont use it however the function is there for those who need it
 // DetourClean also takes the same params as DetourThis so feel free to copy paste DetourThis just change This to Clean
 
 
